@@ -13,7 +13,7 @@ We compare capture rates and diversity of bats using monofilament nets and regul
 
 ## Analyses
 
-* [Statistical analysis](https://github.com/morceglo/Energetics-of-vocal-communication-in-Thyroptera/blob/main/Energetics%20of%20calling%20in%20Thyroptera.R)
+* [Statistical analysis](https://github.com/morceglo/Monofilament-nets-for-bats/MF nets bats.R)
 
 ## Status
 Project is: In preparation
