@@ -1,0 +1,50 @@
+---
+title: "MF nets bats"
+author: "Gloriana Chaverri"
+date: "3/29/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+```{r datos}
+
+library(readxl)
+Datos <- read_excel("C:/Users/Gloriana/Desktop/Proyecto redes/Análisis/Nets.xlsx")
+View(Datos)
+
+```
+
+
+```{r assumptions, echo=FALSE}
+
+#Verify that assumptions of normality and homoscedasticity are met (data for n individuals per sampling effort were sqrt transformed)
+
+dat = lm(Nind_sr ~ Net, Datos)
+
+plot(fitted(dat),residuals(dat))^2
+
+hist(residuals(dat))
+
+qqnorm(residuals(dat))
+
+
+library(ggpubr)
+
+ggqqplot(Datos$Nind_sr)
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
