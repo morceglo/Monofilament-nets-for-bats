@@ -16,7 +16,7 @@ We compare capture rates and diversity of bats using monofilament nets and regul
 * [Statistical analysis](https://github.com/morceglo/Monofilament-nets-for-bats/blob/main/MF%20nets%20bats.R)
 
 ## Status
-Project is: In preparation
+Project is: In revision at Royal Society Open Science
 
 ## Contact
 Created by [Gloriana_Chaverri](batcr.com/)
