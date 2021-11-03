@@ -9,7 +9,8 @@ Gloriana Chaverri, Silvia Chaves-Ramírez, Christian Castillo-Salazar, Mariela S
 We compare capture rates and diversity of bats using monofilament nets and regular nets
 
 ## Data
-* [Data](https://github.com/morceglo/Monofilament-nets-for-bats/blob/main/Nets.xlsx)
+* [Data summarized](https://github.com/morceglo/Monofilament-nets-for-bats/blob/main/Nets.xlsx)
+* [Data for species](https://github.com/morceglo/Monofilament-nets-for-bats/blob/3f61012f00261bba699fcf7abf8c4580e8af15d8/Species.xlsx)
 
 ## Analyses
 
